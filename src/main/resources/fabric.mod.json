@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "christmas",
+  "version": "${version}",
+
+  "name": "Christmas Mod",
+  "description": "Mod that adds Christmas!",
+  "authors": [
+    "Lexicled"
+  ],
+
+  "license": "GNU GPL",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.lexicled.christmas.Christmas"
+    ]
+  },
+  "mixins": [
+    "christmas.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
