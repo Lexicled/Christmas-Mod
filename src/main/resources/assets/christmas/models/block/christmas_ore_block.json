@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "christmas:block/christmas_ore_block"
+  }
+}
