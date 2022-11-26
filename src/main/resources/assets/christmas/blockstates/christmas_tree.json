@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "christmas:block/christmas_tree"
+    },
+    "facing=south": {
+      "model": "christmas:block/christmas_tree",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "christmas:block/christmas_tree",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "christmas:block/christmas_tree",
+      "y": 90
+    }
+  }
+}

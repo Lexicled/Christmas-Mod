@@ -1,6 +1,7 @@
 package me.lexicled.christmas.block;
 
 import me.lexicled.christmas.Christmas;
+import me.lexicled.christmas.block.custom.ChristmasTreeBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -17,6 +18,9 @@ public class ModBlocks {
             ItemGroup.MATERIALS);
     public static final Block CHRISTMAS_ORE_BLOCK_DEEPSLATE = registerBlock("christmas_ore_block_deepslate", new Block(FabricBlockSettings.of(Material.STONE).strength(7f).requiresTool()),
             ItemGroup.MATERIALS);
+
+    public static final Block CHRISTMAS_TREE = registerBlock("christmas_tree", new ChristmasTreeBlock(FabricBlockSettings.of(Material.WOOD).strength(2f).nonOpaque()),
+            ItemGroup.DECORATIONS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
