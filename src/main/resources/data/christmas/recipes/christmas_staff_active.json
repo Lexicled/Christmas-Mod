@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "christmas:christmas_star"
+        },
+        {
+            "item": "christmas:christmas_staff_inactive"
+        }
+    ],
+    "result": {
+        "item": "christmas:christmas_staff_active",
+        "count": 1
+    }
+}

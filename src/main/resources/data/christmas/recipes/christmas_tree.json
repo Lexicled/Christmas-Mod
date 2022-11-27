@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "M/M",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_leaves"
+    },
+    "M": {
+      "item": "minecraft:moss_carpet"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "christmas:christmas_tree",
+    "count": 1
+  }
+}

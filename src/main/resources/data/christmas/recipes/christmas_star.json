@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DCD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:slime_ball"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "C": {
+            "item": "christmas:christmas_ore"
+        }
+    },
+    "result": {
+        "item": "christmas:christmas_star",
+        "count": 1
+    }
+}
