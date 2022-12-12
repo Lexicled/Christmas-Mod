@@ -1,6 +1,7 @@
 package me.lexicled.christmas.block;
 
 import me.lexicled.christmas.Christmas;
+import me.lexicled.christmas.block.custom.ChristmasPortalBlock;
 import me.lexicled.christmas.block.custom.ChristmasTreeBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -22,6 +23,9 @@ public class ModBlocks {
 
     public static final Block CHRISTMAS_TREE = registerBlock("christmas_tree", new ChristmasTreeBlock(FabricBlockSettings.of(Material.WOOD).strength(2f).nonOpaque().sounds(BlockSoundGroup.WOOD)),
             ItemGroup.DECORATIONS);
+
+    public static final Block CHRISTMAS_PORTAL = registerBlock("christmas_portal", new ChristmasPortalBlock(FabricBlockSettings.of(Material.PORTAL).strength(50f).nonOpaque().noCollision()),
+            ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

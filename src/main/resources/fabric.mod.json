@@ -15,6 +15,9 @@
   "entrypoints": {
     "main": [
       "me.lexicled.christmas.Christmas"
+    ],
+    "client":[
+      "me.lexicled.christmas.ChristmasClient"
     ]
   },
   "mixins": [

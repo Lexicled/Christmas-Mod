@@ -10,5 +10,12 @@
   "item.christmas.christmas_pickaxe": "Christmas Pickaxe",
   "item.christmas.christmas_staff_inactive": "Christmas Staff",
   "item.christmas.christmas_staff_active": "Christmas Staff",
-  "item.christmas.christmas_star": "Christmas Star"
+  "item.christmas.christmas_star": "Christmas Star",
+
+  "entity.christmas.santa": "Santa",
+
+  "dialogue.christmas.devil1": "<Devil> It seems that santa is providing everyone with great joy!",
+  "dialogue.christmas.devil2": "<Devil> Too bad he has to die...",
+  "dialogue.christmas.devil3": "<Devil> If you want him back, you will have to relive the Christmas story and find his soul...",
+  "dialogue.christmas.devil4": "<Devil> But that's clearly impossible! Muhahahaha!"
 }

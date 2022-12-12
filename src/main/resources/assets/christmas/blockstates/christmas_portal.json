@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "christmas:block/christmas_portal_ns"
+    },
+    "axis=z": {
+      "model": "christmas:block/christmas_portal_ew"
+    }
+  }
+}

@@ -40,4 +40,5 @@ public class ChristmasTreeBlock extends HorizontalFacingBlock {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
+
 }
